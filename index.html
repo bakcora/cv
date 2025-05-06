@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bahadır Akçora - CV</title>
+  <style>
+    :root {
+      --bg: #f9f9f9;
+      --text: #333;
+      --accent: #444;
+      --card: #e0e0e0;
+    }
+    [data-theme="dark"] {
+      --bg: #1e1e1e;
+      --text: #ddd;
+      --accent: #fff;
+      --card: #333;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: var(--bg);
+      color: var(--text);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    header {
+      text-align: center;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid var(--card);
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .section {
+      margin-top: 2rem;
+    }
+
+    .section h2 {
+      color: var(--accent);
+      border-bottom: 1px solid var(--card);
+      padding-bottom: 0.3rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: var(--card);
+      margin: 0.2rem;
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+
+    .contact p {
+      margin: 0.2rem 0;
+    }
+
+    .buttons {
+      text-align: right;
+      margin-bottom: 1rem;
+    }
+
+    button {
+      margin-left: 0.5rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      background: var(--card);
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: var(--accent);
+      color: var(--bg);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body data-theme="light">
+  <div class="buttons">
+    <button onclick="window.print()">PDF Olarak Yazdır</button>
+    <button onclick="toggleTheme()">Karanlık Mod</button>
+  </div>
+
+  <header>
+    <h1>Bahadır Akçora</h1>
+    <p>Full Stack Developer • Front-End & Back-End • Cloud & Database Systems</p>
+  </header>
+
+  <section class="contact">
+    <h2>İletişim</h2>
+    <p><strong>Telefon:</strong> +90 537 334 93 40</p>
+    <p><strong>E-Posta:</strong> bahadir.akcora@gmail.com</p>
+    <p><strong>Adres:</strong> Hasanpaşa Mah. Borulu Maslak Sokak, Meriç Apt. No:3</p>
+  </section>
+
+  <section>
+    <h2>Uzmanlık Alanları</h2>
+    <p>Front-end & Back-end Development, Nesne Tabanlı Tasarım, Veritabanı ve Bulut Hizmetleri</p>
+  </section>
+
+  <section>
+    <h2>Deneyim</h2>
+    <ul>
+      <li><strong>Setur – Yazılım Geliştirme Süreç Lideri (2022–2024)</strong><br/>Yazılım geliştirme süreçlerinin yönetimi, ekip koordinasyonu, kod kalitesi denetimi ve devops entegrasyonu. Azure servisleri, CI/CD, kod standartları, proje planlamaları ve danışmanlık görevleri.</li>
+      <li><strong>Setur – Kıdemli Yazılım Mühendisi (2017–2022)</strong><br/><em>Projeler:</em><br/>- Duty Free Satış ve Depo Sistemi: CMS, Back-End (C#), Front-End (HTML, JS), Azure Cloud<br/>- Windows servisleri ile terminal-veri senkronizasyonu<br/>- Azure Functions ile entegre veri işleme<br/>- Web API, WCF ve NoSQL servisleri ile çalıştı</li>
+      <li><strong>KoçSistem – Teknik Lider (2016–2017)</strong><br/>Proje analizleri, kod gözden geçirme, yeni geliştiricilere mentorluk. Setur için Duty Free sisteminin genişletilmesi, WCF servisleri ve ASP.NET modüllerinin mimarisi.</li>
+      <li><strong>Digiturk – Yazılım Mühendisi (2013–2016)</strong><br/><em>Projeler:</em><br/>- Ligtv.com.tr: Web portalı (CMS, WCF servis, .NET Front-End)<br/>- Mobil LigTV: Responsive CMS, canlı veri aktarımı, mobil optimizasyon<br/>- Kahin Lig Uygulaması: SOAP servisleri, tahmin motoru, skor analizi<br/>- Online İşlemler: ASP.NET kullanıcı yönetimi, ödeme modülü</li>
+      <li><strong>Nilaccra Bilişim – Yazılım Geliştirici (2012–2013)</strong><br/><em>Projeler:</em><br/>- DigiturkPlay Web ve Mobil: CMS, SOAP servis entegrasyonu, kullanıcı arayüzü tasarımı<br/>- Kamil Koç Mobil: Mobil bilet sistemi, SSL güvenliği, kullanıcı deneyimi<br/>- Metis Kitap: Kitap yönetim paneli ve ödeme sistemi geliştirme</li>
+      <li><strong>Şirket Haberleri – Yazılım Geliştirici (2011–2012)</strong><br/>Basın bülteni yayını sistemi. CMS altyapısı, WCF ile veri alışverişi, editör paneli.</li>
+      <li><strong>Sibilo – Yazılım Geliştirici (2008–2010)</strong><br/><em>Projeler:</em><br/>- DataSmart Online CRM: Müşteri yönetimi, görev takibi, .NET uygulamaları<br/>- Landmark Trust (UK): Google Maps tabanlı yerleşim haritası geliştirmesi<br/>- Sirkethaberleri.com’un ilk sürümü: CMS, .NET Back-End</li>
+      <li><strong>Ford Otosan – Stajyer (2007)</strong><br/>Bilgisayar destekli tasarım (CAD), üretim süreç analizi ve parça modelleme</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Beceriler</h2>
+    <div class="skills">
+      <span>C#</span><span>ASP.NET</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>Azure</span><span>SQL Server</span><span>SOAP/WCF</span><span>.NET Core</span><span>Windows Services</span><span>Secure Coding</span><span>Scrum</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projeler</h2>
+    <ul>
+      <li><strong>Setur Duty Free:</strong> CMS, Azure, Windows Services ile tam entegre satış ve depo sistemi</li>
+      <li><strong>Digiturk LigTV:</strong> Mobil ve web CMS uygulamaları, canlı veri servisleri</li>
+      <li><strong>Kamil Koç Mobil:</strong> Responsive mobil bilet sistemi</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Eğitim</h2>
+    <ul>
+      <li>Gazi Üniversitesi, B.S., Otomotiv Öğr. (2004–2008)</li>
+      <li>Gazi Üniversitesi, B.S., Otomotiv (2002–2004)</li>
+      <li>Polatlı Teknik Lisesi, CNC (1998–2001)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Kurslar</h2>
+    <ul>
+      <li>Scrum Eğitimi</li>
+      <li>Secure Coding</li>
+      <li>AWS Eğitimi</li>
+      <li>PMP Proje Yönetimi</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Kişisel Bilgiler</h2>
+    <ul>
+      <li><strong>Doğum Tarihi:</strong> 03.07.1983</li>
+      <li><strong>Doğum Yeri:</strong> Ankara / Polatlı</li>
+      <li><strong>Askerlik:</strong> Yapıldı</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>İlgi Alanları</h2>
+    <p>Yelken, Rüzgar Sörfü, Dalış, Doğa Yürüyüşleri, Elektronik</p>
+  </section>
+
+  <script>
+    function toggleTheme() {
+      const body = document.body;
+      const theme = body.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      body.setAttribute("data-theme", theme);
+    }
+  </script>
+</body>
+</html>
